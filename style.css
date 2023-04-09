@@ -13,10 +13,10 @@
 }
 
 .block {
-	max-width: 60vw;
+	max-width: 70vw;
 	position: relative;
 	margin: 150px auto;
-	padding: 70px;
+	padding: 60px 70px 30px;
 	border-width: 2px;
 	border-style: solid solid dashed dashed;
 }
@@ -42,9 +42,9 @@
 }
 
 .conclusion {
-	display: inline-block;
-	border-top: solid 1px;
+	text-decoration: overline;
 	text-align: center;
+	margin-top: 70px;
 	}
 
 .recipe-image {
