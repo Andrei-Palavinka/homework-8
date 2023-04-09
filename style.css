@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	text-align: center;
+	margin-top: 50px;
+	text-decoration: underline;
+	text-decoration-style: double;
+	
+}
+
+.block {
+	max-width: 60vw;
+	position: relative;
+	margin: 150px auto;
+	padding: 70px;
+	border-width: 2px;
+	border-style: solid solid dashed dashed;
+}
+
+.charlotte {
+	background-color: #ceecf5;
+	border-color: #456a76;
+}
+
+.tiramisu {
+	background-color: #efefef;
+	border-color: #797979;
+}
+
+.ginger-cookie {
+	background-color: #bbd6bb;
+	border-color: #5c815c;
+}
+
+.recipe-name {
+	text-decoration: underline;
+	margin-bottom: 40px;
+}
+
+.conclusion {
+	display: inline-block;
+	border-top: solid 1px;
+	text-align: center;
+	}
+
+.recipe-image {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	right: -150px;
+	top: -100px;
+	border: 4px solid;
+	border-color: inherit;
+}
+
+.charlotte .block-title {
+	color: #2f5663;
+}
+
+.charlotte .description:first-letter {
+	color: #2f5663;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.charlotte .ingredients li:nth-child(even) {
+	color: #2f5663;
+	text-decoration: underline;
+	text-decoration-style:dotted;
+}
+
+.tiramisu .block-title {
+	color: #646464;
+}
+
+.tiramisu .description:first-letter {
+	color: #646464;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.tiramisu .ingredients li:nth-child(odd) {
+	color: #646464;
+	text-decoration: underline;
+	text-decoration-style:dashed;
+}
+
+.ginger-cookie .block-title {
+	color: #386138;
+}
+
+.ginger-cookie .description:first-letter {
+	color: #386138;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.ginger-cookie .ingredients li:nth-child(3n) {
+	color: #386138;
+	text-decoration: underline;
+	text-decoration-style:wavy;
+}
+
+.cooking-method, .ingredients {
+	margin: 20px 50px;
+}
+
+.description {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
