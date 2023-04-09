@@ -67,7 +67,7 @@
 	font-weight: 800;
 }
 
-.charlotte .ingredients li:nth-child(even) {
+.charlotte li:nth-child(even) {
 	color: #2f5663;
 	text-decoration: underline;
 	text-decoration-style:dotted;
